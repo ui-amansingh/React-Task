@@ -218,6 +218,17 @@ p {
   width: 20px;
   height: 20px;
 }
+.slick-slider .slick-list .slick-track {
+  margin-bottom: 30px;
+}
+.slick-slider .slick-dots li button:before {
+  background-color: var(--rel-secondary-color);
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  margin-bottom: -2px;
+  content: "";
+}
 .rel-container-full {
   padding-left: 15px;
   padding-right: 15px;
