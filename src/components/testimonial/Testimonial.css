@@ -1,0 +1,55 @@
+.rel-testimonial {
+    background-image: url(https://tunatheme.com/tf/react/quarter-preview/quarter/assets/img/bg/20.jpg);
+    background-size: auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.rel-testimonial__item {
+    background-color: var(--rel-white);
+    padding: 30px 35px 40px;
+    max-width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 5px 20px 0 rgba(23, 44, 82, 0.1);
+    box-shadow: 0 5px 20px 0 rgba(23, 44, 82, 0.1);
+    border: 1px solid;
+    border-color: #f1f8ff;
+    position: relative;
+    margin-bottom: 50px;
+}
+.rel-testimonial__item p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+.rel-testimonial .slick-list {
+    margin: 0 -15px;
+}
+.rel-testimonial .slick-track {
+    display: flex;
+}
+.rel-testimonial .slick-slide {
+    padding: 0 15px;
+}
+.rel-testimonial .slick-arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: var(--rel-white);
+}
+.rel-testimonial .slick-slider:hover .slick-next {
+    right: -70px;
+}
+.rel-testimonial .slick-slider:hover .slick-prev {
+    left: -70px;
+}
+.rel-testimonial__item .rel-bref h3 {
+    font-size: 18px;
+}
+.rel-testimonial__item .rel-bref small {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.rel-testimonial__item .rel-avtar--img {
+    max-width: 60px;
+}

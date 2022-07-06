@@ -1,0 +1,16 @@
+.rel-count--icon {
+    font-size: 65px;
+    line-height: 1;
+    color: var(--rel-secondary-color);
+    margin-bottom: 20px;
+}
+.rel-counter__item h2 {
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.rel-counter__item h3 {
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--rel-paragraph-color);
+}

@@ -1,0 +1,40 @@
+.rel-announcement {
+    background-color: var(--rel-primary-color-3);
+    color: var(--rel-white);
+    font-size: 14px;
+    font-weight: 700;
+}
+.rel-announcement__menu > li {
+    display: inline-block;
+    margin-right: 25px;
+}
+.rel-announcement__menu > li > a span {
+    display: inline-block;
+    margin-right: 5px;
+    color: var(--rel-secondary-color);
+    line-height: 1;
+    vertical-align: middle;
+}
+.rel-announcement__menu > li > a svg {
+    width: 15px;
+}
+.rel-social__icons>li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.rel-right__aria > li {
+    display: inline-block;
+    margin-right: 25px;
+}
+@media screen and (max-width:720px) {
+    .rel-announcement .rel-flex {
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    .rel-btn--listing {
+        line-height: 30px !important;
+    }
+    .rel-announcement {
+        padding: 5px;
+    }
+}

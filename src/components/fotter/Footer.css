@@ -1,0 +1,140 @@
+.rel-footer-top {
+    padding: 90px 15px 20px;
+    background-color: var(--rel-bg-2);
+    color: var(--rel-white);
+}
+.rel-footer p {
+    color: var(--rel-white);
+}
+.rel-footer__item {
+    margin-bottom: 50px;
+}
+.rel-footer-logo {
+    position: relative;
+    top: -15px;
+}
+
+.rel-footer__item p {
+    color: var(--rel-white);
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.rel-footer-address ul li {
+    list-style: none;
+    display: block;
+    margin-top: 8px;
+}
+
+.rel-footer-address ul li .rel-icon {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.rel-footer-address {
+    margin-bottom: 20px;
+}
+
+.rel-footer--title {
+    font-size: 19px;
+    color: var(--rel-white);
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.footer-menu ul li {
+    margin-bottom: 15px;
+}
+
+.footer-menu ul li a {
+    position: relative;
+}
+
+.footer-menu ul li a:before {
+    position: absolute;
+    content: "//";
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: 0;
+    visibility: hidden;
+    margin-left: -20px;
+    color: var(--rel-secondary-color);
+}
+
+.footer-menu ul li:hover a {
+    padding-left: 20px;
+    color: var(--rel-secondary-color);
+}
+
+.footer-menu ul li:hover a:before {
+    opacity: 1;
+    visibility: visible;
+    margin-left: 0;
+}
+
+.footer-newsletter form {
+    position: relative;
+}
+
+.footer-newsletter input[type="email"] {
+    margin: 0;
+    padding-right: 50px;
+    background-color: var(--rel-white);
+    border: 2px solid;
+    border-color: #e4ecf2;
+    height: 65px;
+    box-shadow: none;
+    padding-left: 20px;
+    font-size: 16px;
+    color: var(--rel-paragraph-color);
+    width: 100%;
+    border-radius: 0;
+}
+.footer-newsletter .btn-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.footer-newsletter .btn-wrapper .btn {
+    padding: 0 18px;
+    height: 100%;
+}
+.footer-newsletter .btn-wrapper .btn {
+    padding: 0 18px;
+    height: 100%;
+    display: inline-block;
+    background-color: var(--rel-secondary-color);
+    color: var(--rel-white);
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    border: 1px solid var(--rel-secondary-color);
+    cursor: pointer;
+    transition: all 0.3s;
+    position: relative;
+    z-index: 1;
+}
+.rel-footer__item h5 {
+    color: var(--rel-white);
+    margin-top: 30px;
+    font-size: 18px;
+}
+.rel-footer-bottom {
+    background-color: #282b38;
+    color: var(--rel-white);
+    padding: 25px 15px;
+}
+.rel-copyright-menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+}

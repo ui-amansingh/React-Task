@@ -1,0 +1,117 @@
+.rel-tab__menu span {
+    background-color: transparent;
+    border-bottom: 2px solid transparent;
+    padding: 1px;
+    margin-right: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 1.2;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+    color: var(--rel-primary-color-4);
+}
+.rel-tab__menu {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.rel-tab__menu span:last-child {
+    margin-right: 0;
+}
+.rel-tab__menu span:before {
+    content: "";
+    transform: translateY(-40%);
+    height: 10px;
+    width: 10px;
+    bottom: 0;
+    position: absolute;
+    right: 45%;
+    top: 100%;
+    background-color: transparent;
+    opacity: 1;
+    border: 3px solid transparent;
+    border-radius: 100%;
+}
+.rel-tab__menu span.active {
+    color: var(--rel-secondary-color);
+    background-color: transparent;
+    border-color: var(--rel-secondary-color);
+}
+.rel-tab__menu span.active::before {
+    background-color: var(--rel-secondary-color);
+    border: 3px solid var(--rel-white);
+}
+.rel-tab__info {
+    background-color: var(--rel-secondary-color);
+    color: var(--rel-white);
+    padding: 70px;
+    margin-bottom: 50px;
+}
+.rel-tab__info h2 {
+    font-size: 30px;
+    color: var(--rel-white);
+    margin-bottom: 15px;
+}
+.rel-tab__info p {
+    color: var(--rel-white);
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+.rel-info__list li {
+    margin-top: 10px;
+    display: block;
+    font-weight: 600;
+    position: relative;
+}
+.rel-info__list li:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border: 1px dashed;
+    border-color: var(--rel-white);
+    z-index: 1;
+}
+.rel-info__list li label {
+    padding-right: 10px;
+    background-color: var(--rel-secondary-color);
+    position: relative;
+    z-index: 2;
+}
+.rel-info__list li label,
+.rel-info__list li span {
+    background-color: var(--rel-secondary-color);
+    position: relative;
+    z-index: 2;
+}
+.rel-info__list li label {
+    padding-right: 10px;
+}
+.rel-info__list li span {
+    padding-left: 10px;
+    float: right;
+}
+.rel-info__list {
+    margin-top: 40px;
+}
+.rel-tab__item .rel-flex {
+    column-gap: 30px;
+    flex-wrap: unset;
+}
+@media screen and (max-width:991px) {
+    .rel-tab__item .rel-flex {
+        flex-wrap: wrap;
+    }
+    .rel-tab__item .rel-collg-half {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .rel-tab__menu span {
+        font-size: 14px;
+        margin-right: 20px;
+    }
+} 

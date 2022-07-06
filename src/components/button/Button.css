@@ -1,0 +1,129 @@
+:root {
+  --secondary: #ff5a3c;
+  --warning: #F9DC5C;
+  --danger: #E84855;
+  --success: #ABE188;
+  --white: #fdfdfd;
+  --dark: #000000;
+}
+/* btn css */
+.rel-global--btn {
+  padding: 17px 40px;
+  border-radius: 0;
+  position: relative;
+  transition: all 0.3s;
+  z-index: 1;
+  display: inline-block;
+  border: 1px solid;
+  font-family: 'Poppins', sans-serif;
+}
+/* Button Colors and Styles */
+
+.rel-btn--secondary {
+  background-color: var(--rel-secondary-color);
+  border-color: var(--rel-secondary-color);
+  color: var(--rel-white);
+}
+.rel-btn--primary {
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+}
+
+.rel-btn--warning--solid {
+  background-color: var(--warning);
+  color: var(--dark);
+  border: none;
+}
+
+.rel-btn--danger--solid {
+  background-color: var(--danger);
+  color: var(--white);
+  border: none;
+}
+
+.rel-btn--success--solid {
+  background-color: var(--success);
+  color: var(--white);
+  border: none;
+}
+
+.rel-btn--primary--outline {
+  background-color: transparent;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+}
+
+.rel-btn--warning--outline {
+  background-color: transparent;
+  border: 2px solid var(--warning);
+  color: var(--warning);
+}
+
+.rel-btn--danger--outline {
+  background-color: transparent;
+  border: 2px solid var(--danger);
+  color: var(--danger);
+}
+
+.rel-btn--success--outline {
+  background-color: transparent;
+  border: 2px solid var(--success);
+  color: var(--success);
+}
+.rel-btn--listing {
+  line-height: 40px;
+  display: inline-block;
+  padding: 0 20px;
+  font-family: 'Nunito Sans', sans-serif;
+  background: var(--rel-secondary-color);
+  border: none;
+  font-weight: 700;
+}
+.rel-btn--listing:hover {
+  background-color: var(--rtl-secondary-color-2);
+}
+.rel-btn--transparent {
+  background-color: transparent;
+  -webkit-box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-color: #ddd;
+}
+.rel-btn--transparent:hover { 
+  color: var(--rel-white);
+}
+.rel-btn--transparent::after {
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--rel-primary-color);
+}
+.rel-btn--transparent:hover::after {
+  width: 100%;
+}
+/* btn-effect */
+.rel-global--btn::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.rel-btn--secondary:hover {
+  background-color: var(--rel-primary-color);
+  border-color: var(--rel-primary-color);
+  color: var(--rel-primary-color-4);
+}
+.rel-btn--secondary::after {
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+}
+.rel-btn--secondary:hover::after {
+  width: 100%;
+}

@@ -1,0 +1,101 @@
+.rel-hero-slider {
+    overflow: hidden;
+    background-color: var(--rel-section-bg);
+}
+.rel-slider__item {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.rel-slider__subtitle {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--rel-primary-color-4);
+}
+.rel-slider__subtitle svg {
+    color: var(--rel-secondary-color);
+}
+.rel-slider__title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 50px;
+    color: var(--rel-primary-color-4);
+}
+.red-slider__description {
+    color: var(--rel-paragraph-color);
+    max-width: 430px;
+}
+.order--one .red-slider__description {
+    padding-left: 30px;
+    border-left: 1px solid var(--rel-paragraph-color);
+}
+.rel-btn__wrap {
+    margin-top: 40px;
+}
+.rel-btn__wrap .rel-play--btn {
+    margin-top: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 65px;
+    display: inline-block;
+    text-align: center;
+    background-color: var(--rel-white);
+    color: var(--rel-secondary-color);
+    border-radius: 100%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    margin-left: 15px;
+}
+/* slider arrow */
+.rel-hero-slider .slick-arrow {
+    width: 60px;
+    height: 60px;
+}
+.order--two .rel-flex {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+.order--two .red-slider__description {
+    padding-right: 30px;
+    border-right: 1px solid var(--rel-paragraph-color);
+    margin-left: auto;
+}
+.rel-global--btn + .rel-global--btn {
+    margin-left: 15px;
+}
+@media screen and (min-width:768px) {
+    /* .rel-slider__info {
+        padding-right: 5%;
+    }   */
+}
+@media screen and (min-width:992px) and (max-width:1400px) {
+    .rel-slider__images {
+        position: absolute;
+        max-width: 45%;
+        top: 65%;
+        height: 70%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .order--one .rel-slider__images {
+        right: 60px;
+    }
+    .order--two .rel-slider__images {
+        left: 60px;
+    }
+    .rel-hero-slider .slick-slide img {
+        display: block;
+        height: 100%;
+    }
+}
+@media screen and (max-width:991px) {
+    .rel-slider__info {
+        margin-bottom: 60px;
+    }
+    .rel-slider__item {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}

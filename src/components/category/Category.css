@@ -1,0 +1,90 @@
+.rel-category__item {
+    box-shadow: 0 5px 20px 0 rgb(23 44 82 / 10%);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: var(--rel-white);
+    transition: all 0.3s ease 0s;
+}
+.rel-category__item a {
+    padding: 40px 30px 35px;
+    display: block;
+    position: relative;
+}
+.rel-category__item span {
+    display: block;
+}
+.category-icon {
+    width: 100px;
+    height: 100px;
+    line-height: 115px;
+    font-size: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    background-color: #fff2f0;
+    color: var(--rel-secondary-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.category-btn {
+    width: 45px;
+    height: 45px;
+    line-height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    color: var(--rel-paragraph-color);
+    font-size: 18px;
+    border: 1px solid #f6f6f6;
+    background-color: var(--rel-white);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: -20px;
+    right: 50%;
+    transform: translateX(50%);
+}
+.category-title {
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--rel-primary-color-4);
+}
+.rel-category__item:hover {
+    background-color: var(--rel-secondary-color);
+}
+.rel-category__item:hover .category-title {
+    color: var(--rel-white);
+}
+.rel-category__item:hover .category-btn {
+    color: var(--rel-secondary-color);
+}
+.rel-category-area .rel-flex {
+    column-gap: 20px;
+}
+@media screen and (min-width:992px) {
+    .rel-category-col {
+        width: calc(25% - 20px);
+    }
+}
+@media screen and (min-width:768px) {
+    .rel-category-col {
+        width: calc(33.333% - 20px);
+    }
+    .rel-category-area .rel-flex {
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width:991px) {
+    .rel-category__item a {
+        padding: 40px 20px 35px;
+    }
+    .category-title {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:767px) {
+    .rel-category-col {
+        width: calc(50% - 20px);
+    }
+}

@@ -1,0 +1,33 @@
+const NavbarData =[
+    {
+        id:1,
+        text:"Home",
+        links:"google.com"
+    },
+    {
+        id:2,
+        text:"About",
+        links:"google.com"
+    },
+    {
+        id:3,
+        text:"Shop",
+        links:"google.com"
+    },
+    {
+        id:4,
+        text:"News",
+        links:"google.com"
+    },
+    {
+        id:5,
+        text:"Pages",
+        links:"google.com"
+    },
+    {
+        id:6,
+        text:"Contact",
+        links:"google.com"
+    },
+]
+export default NavbarData;

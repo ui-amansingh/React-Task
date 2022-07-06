@@ -1,0 +1,27 @@
+.rel-card {
+    border: 1px solid #f6f6f6;
+    margin-bottom: 25px;
+    padding: 40px 30px 35px;
+    box-shadow: 0 16px 32px 0 rgb(7 28 31 / 10%);
+    position: relative;
+    background-color: var(--rel-white);
+}
+.rel-card__info h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.rel-card__info p {
+    font-size: 14px;
+}
+.rel-card__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8cb2b2;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.rel-card--active .rel-card__link {
+    color: var(--rel-secondary-color);
+}

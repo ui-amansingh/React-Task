@@ -1,0 +1,60 @@
+.rel-bolgs .slick-list {
+    margin: 0 -15px;
+}
+.rel-bolgs .slick-track {
+    display: flex;
+}
+.rel-bolgs .slick-slide {
+    padding: 0 15px;
+}
+.rel-bolgs .slick-arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: var(--rel-white);
+}
+.rel-bolgs .slick-slider:hover .slick-next {
+    right: -70px;
+}
+.rel-bolgs .slick-slider:hover .slick-prev {
+    left: -70px;
+}
+.rel-product__info li {
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 25px;
+    position: relative;
+    font-size: 14px;
+    margin-top: 0;
+    color: var(--rel-paragraph-color);
+}
+.rel-product__info li svg {
+    color: var(--rel-secondary-color);
+    margin-right: 5px;
+}
+.rel-blog-tags a {
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+}
+.rel-blog-tags a:last-child,
+.rel-blog-meta .rel-blog-tags {
+    margin-right: 0;
+}
+.rel-blog-meta {
+    margin-bottom: 15px;
+}
+.rel-blog-btn {
+    font-size: 14px;
+    color: var(--rel-secondary-color);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+@media screen and (max-width:991px) {
+    .rel-product--title {
+        font-size: 18px;
+    }
+    .rel-slider__title {
+        font-size: 40px;
+    }
+}
